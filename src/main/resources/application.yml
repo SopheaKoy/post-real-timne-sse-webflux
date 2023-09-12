@@ -1,0 +1,11 @@
+#Configuration MongoDB
+spring:
+  data:
+    mongodb:
+      host: localhost
+      database: post_realtime
+      port: 27017
+
+#Configuration Port
+server:
+  port: 6060
